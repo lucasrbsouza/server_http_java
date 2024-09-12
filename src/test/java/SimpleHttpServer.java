@@ -29,7 +29,7 @@ public class SimpleHttpServer {
                         "\n" +
                         "    <!-- Conteúdo Principal -->\n" +
                         "    <main style=\"padding: 40px; max-width: 800px; margin: 0 auto; text-align: center;\">\n" +
-                        "        <h2 style=\"font-size: 2em; color: #333;\">Olá Mundo!</h2>\n" +
+                        "        <h2 style=\"font-size: 2em; color: #333;\">Olá a todos!</h2>\n" +
                         "        <p style=\"font-size: 1.2em; color: #555; line-height: 1.6;\">\n" +
                         "            Bem-vindo a pagina do meu servidor em java estilizado de forma simples. \n" +
                         "            Este layout é limpo e direto, com um design responsivo que se adapta bem a diferentes tamanhos de tela.\n" +
