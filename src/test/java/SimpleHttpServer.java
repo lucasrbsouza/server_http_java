@@ -37,7 +37,7 @@ public class SimpleHttpServer {
                         "    </main>\n" +
                         "\n" +
                         "    <!-- Rodapé -->\n" +
-                        "    <footer style=\"background-color: #000; color: #fff; text-align: center; padding: 15px; position: fixed; bottom: 0; width: 100%;\">\n" +
+                        "    <footer style=\"background-color: #000; color: #fff; text-align: center; padding: 16px; position: fixed; bottom: 0; width: 100%;\">\n" +
                         "        <p style=\"margin: 0;\">© 2024 Meu Site Simples. Todos os direitos reservados.</p>\n" +
                         "        <p style=\"margin: 0; padding: 10;\">Feito por Lucas Souza.</p>\n" +
                         "    </footer>\n" +
