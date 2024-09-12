@@ -13,7 +13,7 @@ public class SimpleHttpServer {
                 InputStreamReader isr = new InputStreamReader(client.getInputStream());
                 BufferedReader bfr = new BufferedReader(isr);
                 String line = bfr.readLine();
-                String string = "<!DOCTYPE html>\n" +
+                String page = "<!DOCTYPE html>\n" +
                         "<html lang=\"pt-BR\">\n" +
                         "<head>\n" +
                         "    <meta charset=\"UTF-8\">\n" +
@@ -45,7 +45,7 @@ public class SimpleHttpServer {
                         "</body>\n" +
                         "</html>\n";
 
-                String httpResponse = "HTTP/1.1 200 OK\r\n\r\n" + string;
+                String httpResponse = "HTTP/1.1 200 OK\r\n\r\n" + page;
                 client.getOutputStream().write(httpResponse.getBytes("UTF-8"));
             }
         }
